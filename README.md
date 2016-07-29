@@ -1,9 +1,9 @@
 # install PvResan
 
 
-[join to @OpenID](https://telegram.me/openid)
+[join to @LammerTEAM](https://telegram.me/LammerTEAM)
 
-[creator](https://telegram.me/mutepuker)
+[creator](https://telegram.me/MrLammer)
 
 
 <b>Source PvResan</b>
@@ -52,7 +52,7 @@ your old repository's clone URL
 
 لينك گيتهاب ما يعني 
 
-https://github.com/MutePuker/PvResan.git
+https://github.com/Black-Nine/PmResan.git
 
 را جاي گذاري كرده و گزينه
 
@@ -124,9 +124,9 @@ Source Code
 بگذاريد
 
 يعني اگر ادرس شما 
-https://github.com/MutePuker/PvResan
+https://github.com/Black-Nine/pmresan
 بود بايد شما به اين صورت واد كنيد
-https://github.com/MutePuker/PvResan.git
+https://github.com/Black-Nine/pmresan.git
 
 كار ما تمام شد به چيزي كار نداريم و
 Create Application 
