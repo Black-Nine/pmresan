@@ -636,7 +636,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => $pmembersiddd[1
 }
     	
     
-    }else if ($text == "Settings ⚙" && $chat_id==$admin) {
+    }else if ($text == "تنظیمات ⚙" && $chat_id==$admin) {
     		
     		
     		 apiRequestJson("sendMessage", array('chat_id' => $chat_id,"parse_mode"=>"HTML", "text" => '
@@ -719,7 +719,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => $pmembersiddd[1
         $pmembersid= explode("\n",$txxt);
     		file_put_contents('banlist.txt',"");
     		apiRequestJson("sendMessage", array('chat_id' => $chat_id,"parse_mode"=>"HTML", "text" => 'لیست سیاه پاک شد ✔ ', 'reply_markup' => array(
-        'keyboard' => array(array('🗣 Send To All'),array('⚓️ Help','👥 Members','❌ Blocked Users'),array("Settings ⚙")),
+        'keyboard' => array(array('�ارسال به همه'),array('⚓️ راهنما','�اعضا','❌ افراد مسدود شده'),array("تنظیمات ⚙)),
         'one_time_keyboard' => true,
         'selective' => true,
         'resize_keyboard' => true)));
@@ -727,7 +727,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => $pmembersiddd[1
     else if ($text == "🔙 Back" && $chat_id==$admin) {
     		apiRequestJson("sendMessage", array('chat_id' => $chat_id, "text" => 'سلام قربان حوش آمدید😉
 برای پاسخ روی پیام مورد نظر ریپلای کنید و متن خود را بنویسید 😎
-برای آشنایی دکمه ی ⚓️ Help️ را بزنید 👌😃
+برای آشنایی دکمه ی ⚓️ راهنما️ را بزنید 👌😃
 .', 'reply_markup' => array(
         'keyboard' => array(array('🗣 Send To All'),array('⚓️ Help','👥 Members','❌ Blocked Users'),array("Settings ⚙")),
         'one_time_keyboard' => true,
